@@ -73,6 +73,16 @@
         android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="043438759 - Vera Marsella - upbjj Bandar Lampung"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif-black"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="40dp"
+        android:layout_centerHorizontal="true"/>
+
 
 
 </RelativeLayout>
