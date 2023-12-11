@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Pengiriman SmS"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:paddingTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/jdulnomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kirim ke : "
+        android:textSize="20dp"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="49dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/nomer"
+        android:layout_below="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="40dp"
+        android:hint="Nomor telp"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesan  : "
+        android:textSize="20dp"
+        android:layout_below="@+id/jdulnomer"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/pesan"
+        android:layout_below="@+id/nomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="190dp"
+        android:layout_marginTop="35dp"
+        android:hint="Nomor telp"
+        android:padding="10dp"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:layout_below="@id/pesan"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>
